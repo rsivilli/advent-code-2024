@@ -1,1 +1,1 @@
-# PACKAGE_NAME
+# Advent of Code 2024

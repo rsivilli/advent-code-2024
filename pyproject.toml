@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "PACKAGE_NAME"
+name = "advent"
 version = "0.1.0"
 description = ""
 authors = ["Robert Sivilli <robert.sivilli@gmail.com>"]
@@ -28,10 +28,6 @@ pretty = true
 plugins = ["pydantic.mypy"]
 
 
-[tool.flake8]
-max-line-length = 120
-extend-ignore = ["E203", "W503"]  # Compatible with Black
-exclude = ["build", "dist", ".venv", ".git", "__pycache__"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
